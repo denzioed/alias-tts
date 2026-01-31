@@ -1,7 +1,0 @@
-{
-    "CLEARI":"CLR %s %s IC %s \"on Departure contact\" %s SQ %s EXP DEP RWY %s",
-    "CLEARVDEP":"\"Cleared out of the class Bravo\" AOB %s SQ %S",
-    "CLEARVCIR":"\" %s hand circuits for\" RWY %s SQ %s",
-    "PTAC":"\"%s miles from %s\" %s MTN %s \"until established\" CF %s",
-    "TAC":"%s MTN %s \"until established\" CF %s"
-}
