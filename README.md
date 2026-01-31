@@ -27,7 +27,11 @@ For example if the short form DES were in alias.json like:
 
 Entering DES as text in the program, would cause the program to read it as "descend and maintain"
 
-Feel free to create your own alias.json, just replace the file provided with your own file named alias.json with your short forms.
+All short forms are saved as audio in the audio folder to reduce generation times.
+
+Feel free to create your own alias.json, just replace the file provided with your own file named alias.json with your short forms, you can also just edit the existing alias.json.
+
+The program does not automatically detect when alias.json is changed, just when a new short form is added. To regenerate audio for a short form you should delete the existing audio file in the audio folder to prompt the program to regenerate it according to alias.json.
 
 The default alias.json is for some goofy roblox atc server hence the terms in it.
 
@@ -37,6 +41,8 @@ Navigate to the project folder via console, then enter the command
 python main.py
 ```
 Then you should get the option to input text.
+
+The initial load time may take long as the program will save all the audio for the short form terms to the audio folder.
 
 To input text not meant to be interpreted as a short form quote the text with quotation marks ("")
 
